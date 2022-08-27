@@ -4,6 +4,7 @@ import MiniSlider from './modules/slider/slider-mini';
 import Difference from './modules/difference';
 import Forms from './modules/forms';
 import ShowInfo from './modules/showinfo';
+import DownLoad from './modules/download';
 
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -55,4 +56,6 @@ const form = new Forms('.form');
 form.init();
 
 new ShowInfo('.plus__content').init();
+
+new DownLoad('.download').init();
 });
